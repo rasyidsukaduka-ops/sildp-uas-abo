@@ -12,21 +12,11 @@ Proyek ini dikembangkan sebagai bagian dari **Ujian Akhir Semester (UAS) Analisa
 |---|---|
 | **Mata Kuliah** | Analisa Berorientasi Objek (ABO) |
 | **Jenis Kegiatan** | Ujian Akhir Semester (UAS) |
-| **Program Studi** | [Nama Program Studi] |
-| **Kelas** | [Kelas] |
-| **Dosen Pengampu** | [Nama Dosen] |
-| **Kelompok** | Kelompok [Nomor Kelompok] |
+| **Program Studi** | PJJ Informatika |
+| **Kelas** | IF404 |
+| **Kelompok** | Kelompok 13 |
 
-### 👥 Anggota Kelompok
-
-| No. | Nama | NIM |
-|---:|---|---|
-| 1 | [Nama Anggota 1] | [NIM] |
-| 2 | [Nama Anggota 2] | [NIM] |
-| 3 | [Nama Anggota 3] | [NIM] |
-| 4 | [Nama Anggota 4] | [NIM] |
-
-## 📌 Tentang Sistem
+### 📌 Tentang Sistem
 
 Proses permintaan data pemerintah membutuhkan mekanisme yang jelas agar permintaan dapat diterima, diverifikasi, diproses, dan diselesaikan secara terstruktur.
 
