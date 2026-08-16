@@ -1,58 +1,131 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SILDP
+## Sistem Informasi Layanan Data Pemerintah
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+SILDP (Sistem Informasi Layanan Data Pemerintah) merupakan aplikasi berbasis web yang dirancang untuk membantu proses **permintaan, verifikasi, pengelolaan, dan publikasi data pemerintah** secara terstruktur dan terdokumentasi.
 
-## About Laravel
+Proyek ini dikembangkan sebagai bagian dari **Ujian Akhir Semester (UAS) Analisa Berorientasi Objek (ABO)**.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
+## 🎓 Identitas Proyek
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| Keterangan | Informasi |
+|---|---|
+| **Mata Kuliah** | Analisa Berorientasi Objek (ABO) |
+| **Jenis Kegiatan** | Ujian Akhir Semester (UAS) |
+| **Program Studi** | [Nama Program Studi] |
+| **Kelas** | [Kelas] |
+| **Dosen Pengampu** | [Nama Dosen] |
+| **Kelompok** | Kelompok [Nomor Kelompok] |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 👥 Anggota Kelompok
 
-## Learning Laravel
+| No. | Nama | NIM |
+|---:|---|---|
+| 1 | [Nama Anggota 1] | [NIM] |
+| 2 | [Nama Anggota 2] | [NIM] |
+| 3 | [Nama Anggota 3] | [NIM] |
+| 4 | [Nama Anggota 4] | [NIM] |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📌 Tentang Sistem
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Proses permintaan data pemerintah membutuhkan mekanisme yang jelas agar permintaan dapat diterima, diverifikasi, diproses, dan diselesaikan secara terstruktur.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+SILDP menyediakan alur layanan data yang memungkinkan:
 
-## Agentic Development
+- Pengguna mengajukan permintaan data
+- Sistem menghasilkan tiket permintaan
+- Admin melakukan verifikasi permintaan
+- Operator menyiapkan dan mengunggah dataset
+- Admin melakukan proses publikasi
+- Pengguna dapat mengetahui status permintaannya
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Dengan demikian, proses layanan data menjadi lebih **terstruktur, terdokumentasi, dan mudah dipantau**.
 
-```bash
-composer require laravel/boost --dev
+---
 
-php artisan boost:install
-```
+## 🎯 Tujuan
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Sistem ini bertujuan untuk:
 
-## Contributing
+1. Digitalisasi proses permintaan data.
+2. Mempermudah pengelolaan permintaan data.
+3. Meningkatkan keterlacakan proses layanan data.
+4. Mempermudah pengelolaan dataset.
+5. Mendukung publikasi data secara terstruktur.
+6. Mengurangi proses layanan data yang dilakukan secara manual.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## ✨ Fitur Utama
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 👤 Pengguna
 
-## Security Vulnerabilities
+- Mengajukan permintaan data
+- Mendapatkan nomor/tiket permintaan
+- Melihat status permintaan
+- Melihat dataset yang telah dipublikasikan
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🛡️ Admin
 
-## License
+- Melihat daftar permintaan data
+- Melakukan verifikasi permintaan
+- Menyetujui atau menolak permintaan
+- Mengelola dataset
+- Melakukan publikasi dataset
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 📊 Operator
+
+- Menyiapkan dataset
+- Mengunggah dataset
+- Memproses permintaan data
+- Memperbarui status permintaan
+
+---
+
+## 🔄 Alur Layanan Data
+
+```text
+┌─────────────┐
+│   Pengguna  │
+└──────┬──────┘
+       │
+       ▼
+┌────────────────────┐
+│ Ajukan Permintaan  │
+│       Data         │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Sistem Membuat     │
+│      Tiket         │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│       Admin        │
+│      Verifikasi    │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│     Operator       │
+│ Menyiapkan Dataset │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Upload Dataset     │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│       Admin        │
+│      Publikasi     │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Dataset Tersedia   │
+│     untuk User     │
+└────────────────────┘
